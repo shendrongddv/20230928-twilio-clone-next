@@ -28,13 +28,13 @@ export const WhatWeCanDoAccordion = () => {
                 key={item.id}
                 className="mt-4 flex items-center gap-4 rounded-lg bg-slate-100 p-4"
               >
-                <div className="h-9 w-9 shrink-0 rounded-full">
+                <div className="h-8 w-8 shrink-0 rounded-full">
                   <Image
                     src={`/${item.media}`}
                     alt={item.label}
                     width={36}
                     height={36}
-                    className="h-9 w-9"
+                    className="h-8 w-8 text-destructive"
                   />
                 </div>
                 <div>
@@ -52,15 +52,15 @@ export const WhatWeCanDoAccordion = () => {
             {item.features?.map((item) => (
               <div
                 key={item.id}
-                className="mt-4 flex items-center gap-4 rounded-lg bg-slate-100 p-4"
+                className="mt-4 flex items-center gap-4 rounded-lg p-4 hover:bg-slate-100"
               >
-                <div className="h-9 w-9 shrink-0 rounded-full">
+                <div className="h-8 w-8 shrink-0 rounded-full">
                   <Image
                     src={`/${item.media}`}
                     alt={item.label}
                     width={36}
                     height={36}
-                    className="h-9 w-9"
+                    className="h-8 w-8 text-destructive"
                   />
                 </div>
                 <div>

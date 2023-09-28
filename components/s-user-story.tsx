@@ -1,3 +1,5 @@
+import { UseCaseTab } from "./tab/use-case-tab";
+
 export const SUserStory = () => {
   return (
     <section className="border-b py-16">
@@ -12,6 +14,9 @@ export const SUserStory = () => {
             Engagement Platform.
           </p>
         </div>
+
+        {/* Tabs */}
+        <UseCaseTab />
       </div>
     </section>
   );

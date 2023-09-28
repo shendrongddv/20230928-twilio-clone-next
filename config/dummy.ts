@@ -143,3 +143,135 @@ export const dummyProductDescription = [
     url: "/",
   },
 ];
+
+// CaseStudy
+export const DummyCaseStudy = [
+  {
+    id: "3f0b9a19-c42d-541e-aa37-7b439c66110d",
+    field: "Retail",
+    url: "/",
+    business: {
+      name: "Domino's Pizza",
+      media: "Strapi.svg",
+    },
+    people: {
+      name: "Christian Rocha Castillo",
+      position: "Deputy Director Ecommerce/Digital Media",
+      word: "Having [Twilio] Segment not only helped us do the personalization work we''ve always wanted to do, but we can now improve on the effectiveness of our ad campaigns and create a better feedback loop.",
+    },
+    plan: {
+      title: "Decreased cost per acquisition by 65%",
+      desc: "With Twilio, Domino's created complex, personalized audience journeys to increase return on ad spend, revenue, and incremental orders across paid and owned ecommerce channels.",
+      stats: [
+        {
+          title: "65%",
+          desc: "decrease in customer acquisition cost",
+        },
+        {
+          title: "23%",
+          desc: "incremental increase in Facebook conversions",
+        },
+        {
+          title: "700%",
+          desc: "increase in return on Google ad spend",
+        },
+      ],
+    },
+  },
+  {
+    id: "d4a80636-7541-5480-b04e-0c01e5c319f4",
+    field: " Healthcare",
+    url: "/",
+    business: {
+      name: "Allergan",
+      media: "Strapi.svg",
+    },
+    people: {
+      name: "Christine Li",
+      position: "Director of Marketing Technology",
+      word: "The combination of Twilio and Segment will empower us to provide customer magic moments and communication that's highly relevant",
+    },
+    plan: {
+      title: "Grew their direct-to-consumer loyalty program by $400M",
+      desc: "With Twilio, Allergan Aesthetics implemented new messaging tools and a centralized source of customer data, driving an increase of 3M+ loyalty users.",
+      stats: [
+        {
+          title: "41%",
+          desc: "reduction in cost per acquisition",
+        },
+        {
+          title: "3M+",
+          desc: "more consumer loyalty users",
+        },
+        {
+          title: "40%",
+          desc: "increase in sales through personalization",
+        },
+      ],
+    },
+  },
+  {
+    id: "3f502333-50c9-50a1-8d0c-c9f2b52c1bd6",
+    field: "Financial services",
+    url: "/",
+    business: {
+      name: "BGL Insurance",
+      media: "Strapi.svg",
+    },
+    people: {
+      name: "Jayne Lansdell",
+      position: "Associate Director of Process and Technology",
+      word: "BGL's customer experience is all about making it easy for our customers to interact with us. The test, learn, and adapt approach that Twilio enables through its open platform makes the refinement of that experience far easier to achieve than it would otherwise be.",
+    },
+    plan: {
+      title: "Built a new virtual contact center in just 8 days",
+      desc: "With Twilio, BGL Insurance built a new, Twilio-powered virtual contact center in just 8 days, enabling 1,200 agents while maintaining the highest level of customer service.",
+      stats: [
+        {
+          title: "1,200",
+          desc: "agents onboarded fully remotely",
+        },
+        {
+          title: "8 days",
+          desc: "to build a new virtual contact center",
+        },
+        {
+          title: "60",
+          desc: "agents upskilled on web chat",
+        },
+      ],
+    },
+  },
+  {
+    id: "b7d071bd-7790-5a66-83f6-507f7073805d",
+    field: "Nonprofit",
+    url: "/",
+    business: {
+      name: "American Red Cross of Chicago & Northern Illinois",
+      media: "Strapi.svg",
+    },
+    people: {
+      name: "Jim McGowan",
+      position: "Director of Planning and Situational Awareness",
+      word: "We were tired of monolithic systems that weren't really flexible ... Volunteers really like [the new Twilio-powered alert system]. They can schedule themselves, do what they need to do, and communicate effortlessly with our dispatchers.",
+    },
+    plan: {
+      title: "Staffed volunteers 50% faster",
+      desc: "With Twilio, The American Red Cross built a new alert system that allows dispatchers to send messages to volunteers quickly, which saves precious minutes for dispatchers and responders in the face of an emergency.",
+      stats: [
+        {
+          title: "1,200+",
+          desc: "disasters responded to every year",
+        },
+        {
+          title: "500+",
+          desc: "active volunteers activated more efficiently",
+        },
+        {
+          title: "20%",
+          desc: "of the US population served by app",
+        },
+      ],
+    },
+  },
+];
