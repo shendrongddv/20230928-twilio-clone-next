@@ -9,10 +9,7 @@ export default function HomePageLayout({
   return (
     <>
       <Header />
-      <main>
-        <h2 className="h2">HomePageLayout</h2>
-        {children}
-      </main>
+      <main>{children}</main>
       <Footer />
     </>
   );

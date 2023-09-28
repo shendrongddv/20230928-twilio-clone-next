@@ -1,16 +1,47 @@
-import { ThemeSwitcher } from "@/components/theme-switcher";
-import { Badge } from "@/components/ui/badge";
-import { buttonVariants } from "@/components/ui/button";
-import { dummyProductDescription } from "@/config/dummy";
-import { cn } from "@/lib/utils";
-import { ArrowRight } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
+
+import { cn } from "@/lib/utils";
+import { buttonVariants } from "@/components/ui/button";
+import { Badge } from "@/components/ui/badge";
+
+import { ArrowRight } from "lucide-react";
+
+import { dummyProductDescription } from "@/config/dummy";
+
+import { SHomeHero } from "@/components/s-home-hero";
+import { SJobPosition } from "@/components/s-job-position";
+import { SWhatWeDo } from "@/components/s-what-we-do";
+import { STheDoc } from "@/components/s-the-doc";
+import { STheStudio } from "@/components/s-the-studio";
+import { SUserStory } from "@/components/s-user-story";
 
 export default function Home() {
   return (
     <>
-      <ThemeSwitcher />
+      {/* Hero */}
+      <SHomeHero />
+      {/* ./ Hero */}
+
+      {/* JobPosition */}
+      <SJobPosition />
+      {/* ./JobPosition */}
+
+      {/* #What We Do */}
+      <SWhatWeDo />
+      {/* ./ #What We Do */}
+
+      {/* The Doc */}
+      <STheDoc />
+      {/* ./ The Doc */}
+
+      {/* The Studio */}
+      <STheStudio />
+      {/* ./ The Studio */}
+
+      {/* Customer stories */}
+      <SUserStory />
+      {/* ./ Customer stories */}
 
       {/* Product description */}
       <section className="py-16">
