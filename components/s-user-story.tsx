@@ -7,9 +7,9 @@ export const SUserStory = () => {
           <span className="subtitle text-destructive">Customer stories</span>
           <h2 className="h2">Powered by Twilio</h2>
           <p className="lead">
-            Explore what the world’s leading businesses, from startups to global
-            enterprises, have achieved with the Twilio Customer Engagement
-            Platform.
+            Explore what the world&apos;s leading businesses, from startups to
+            global enterprises, have achieved with the Twilio Customer
+            Engagement Platform.
           </p>
         </div>
       </div>

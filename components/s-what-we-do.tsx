@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { WhatWeCanDoAccordion } from "./accordion/what-we-can-do";
 
 // ContentBrandClouds
 export const ContentBrandClouds = [
@@ -36,25 +37,21 @@ export const SWhatWeDo = () => {
         </div>
 
         {/* Content */}
-        <div className="flex flex-col gap-8 md:flex-row md:items-center md:justify-between">
+        <div className="flex w-full flex-col gap-8 md:flex-row md:items-center md:justify-between">
           {/* Accordion */}
-          <div className="md:w-5/12">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Consequatur distinctio nostrum repellat dolorum, fugit porro
-              expedita asperiores deleniti pariatur nemo quis id repudiandae
-              quibusdam!
-            </p>
+          <div className="md:w-6/12">
+            <WhatWeCanDoAccordion />
           </div>
 
           {/* Image */}
-          <div className="md:w-6/12">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Consequatur distinctio nostrum repellat dolorum, fugit porro
-              expedita asperiores deleniti pariatur nemo quis id repudiandae
-              quibusdam!
-            </p>
+          <div className="border md:w-5/12">
+            <Image
+              src="/customer-aspect.webp"
+              alt="Customer Aspect"
+              width={480}
+              height={480}
+              className="h-auto w-full"
+            />
           </div>
         </div>
 
