@@ -57,8 +57,8 @@ module.exports = {
         sm: "calc(var(--radius) - 4px)",
       },
       fontFamily: {
-        display: "Whitney SC",
-        body: "Whitney SC",
+        display: "Whitney",
+        body: "Whitney",
       },
       keyframes: {
         "accordion-down": {
