@@ -76,7 +76,7 @@ export const DummyAccordionAlpha = [
         id: "3030be61-4b79-58aa-88ff-faa262856347",
         label: "Twilio Segment",
         desc: "The Customer Data Platform (CDP)",
-        media: "Twilio-Segment.svg",
+        media: "twilio_mark.svg",
       },
       {
         id: "4781b958-5e78-5bb4-96be-bb2ebe9810d6",
