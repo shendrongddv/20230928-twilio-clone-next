@@ -7,32 +7,28 @@ import Image from "next/image";
 
 export const UseCaseTab = () => {
   return (
-    <Tabs
-      defaultValue={DummyCaseStudy[0].id}
-      className="flex w-full flex-col items-center gap-4"
-    >
-      <TabsList>
-        <ScrollArea>
+    <Tabs defaultValue={DummyCaseStudy[0].id} className="w-full">
+      <ScrollArea className="rounded-full">
+        <TabsList className="h-max p-1">
           {DummyCaseStudy?.map((item) => (
-            <>
-              <TabsTrigger
-                key={item.id}
-                value={item.id}
-                className={cn(
-                  buttonVariants({
-                    variant: "outline",
-                    size: "default",
-                    className: "rounded-full border-none bg-transparent",
-                  }),
-                )}
-              >
-                {item.field}
-              </TabsTrigger>
-            </>
+            <TabsTrigger
+              key={item.id}
+              value={item.id}
+              className={cn(
+                buttonVariants({
+                  variant: "outline",
+                  size: "default",
+                  className:
+                    "rounded-full border-none bg-transparent text-xs md:text-sm",
+                }),
+              )}
+            >
+              {item.field}
+            </TabsTrigger>
           ))}
-          <ScrollBar orientation="horizontal" />
-        </ScrollArea>
-      </TabsList>
+        </TabsList>
+        <ScrollBar orientation="horizontal" className="hidden" />
+      </ScrollArea>
 
       {DummyCaseStudy?.map((item) => (
         <TabsContent

@@ -1,4 +1,60 @@
-import { LayoutGrid } from "lucide-react";
+// BannerHero
+export const DummyBannerHero = [
+  {
+    id: "623ba92e-5974-58f4-a3dd-58727028ce08",
+    title: "Gartner names Twilio a Leader in CPaaS",
+    desc: "The 2023 Gartner® Magic Quadrant™ for CPaaS recognizes Twilio based on its completeness of vision and ability to execute.",
+    media: "banner-1.webp",
+    link: {
+      label: "Read the report",
+      url: "/",
+    },
+  },
+  {
+    id: "b767d51a-2e2c-5243-873c-fc5491177cdc",
+    title: "Digital Greatness Built with CustomerAI",
+    desc: "Combine living customer profiles and real-time engagement data with artificial intelligence to better serve your customers.",
+    media: "banner-2.webp",
+    link: {
+      label: "Learn more",
+      url: "/",
+    },
+  },
+  {
+    id: "c3683ff0-5cd2-5ec3-818b-6c498ed999f3",
+    title: "100% Guaranteed protection from SMS pumping fraud",
+    desc: "Twilio Verify Fraud Guard has already saved customers $30M+. Terms and conditions apply to guarantee.",
+    media: "banner-3.webp",
+    link: {
+      label: "Explore Verify Fraud Guard",
+      url: "/",
+    },
+  },
+  {
+    id: "749ea779-20ea-5389-af48-d0435f7d7c22",
+    title: "Discover CustomerAI and our product announcements",
+    desc: "Learn more about our CustomerAI technology and catch up on all the exciting product announcements from SIGNAL 2023!",
+    media: "banner-4.webp",
+    link: {
+      label: "Learn more",
+      url: "/",
+    },
+  },
+  {
+    id: "41bdaaa9-3e1d-5129-9a78-2f3470298738",
+    title: "Reduce customer acquisition costs by up to 65%",
+    desc: "Dominos did — with a universal view of the customer and personalized outreach. You can too with Twilio.",
+    media: "banner-5.webp",
+    link: {
+      label: "Learn about Twilio Engage",
+      url: "/",
+    },
+    link2: {
+      label: "Contact sales",
+      url: "/",
+    },
+  },
+];
 
 // AccordionAlpha
 export const DummyAccordionAlpha = [
