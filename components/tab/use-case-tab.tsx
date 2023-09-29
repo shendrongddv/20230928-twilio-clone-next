@@ -14,19 +14,21 @@ export const UseCaseTab = () => {
       <TabsList>
         <ScrollArea>
           {DummyCaseStudy?.map((item) => (
-            <TabsTrigger
-              key={item.id}
-              value={item.id}
-              className={cn(
-                buttonVariants({
-                  variant: "outline",
-                  size: "default",
-                  className: "rounded-full border-none bg-transparent",
-                }),
-              )}
-            >
-              {item.field}
-            </TabsTrigger>
+            <>
+              <TabsTrigger
+                key={item.id}
+                value={item.id}
+                className={cn(
+                  buttonVariants({
+                    variant: "outline",
+                    size: "default",
+                    className: "rounded-full border-none bg-transparent",
+                  }),
+                )}
+              >
+                {item.field}
+              </TabsTrigger>
+            </>
           ))}
           <ScrollBar orientation="horizontal" />
         </ScrollArea>
