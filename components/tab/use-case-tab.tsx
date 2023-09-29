@@ -4,6 +4,8 @@ import { cn } from "@/lib/utils";
 import { buttonVariants } from "../ui/button";
 import { ScrollArea, ScrollBar } from "@/components/ui/scroll-area";
 import Image from "next/image";
+import Link from "next/link";
+import { ArrowRight } from "lucide-react";
 
 export const UseCaseTab = () => {
   return (
@@ -66,7 +68,22 @@ export const UseCaseTab = () => {
               <h3 className="h3">{item.plan.title}</h3>
               <p className="text-base md:text-lg">{item.plan.desc}</p>
 
-              <button>Read the story</button>
+              <Link
+                href={item.url}
+                aria-label="Read the story"
+                className={cn(
+                  buttonVariants({
+                    variant: "linkIcon",
+                    size: "default",
+                    className: "group p-0",
+                  }),
+                )}
+              >
+                Read the story
+                <span className="ml-2 flex h-6 w-6 items-center justify-center rounded-full bg-destructive group-hover:bg-primary">
+                  <ArrowRight className="h-4 w-4 text-background" />
+                </span>
+              </Link>
 
               <ul className="grid w-full max-md:divide-y md:grid-cols-3 md:divide-x">
                 {item.plan.stats?.map((item, index) => (

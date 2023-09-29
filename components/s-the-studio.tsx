@@ -24,21 +24,21 @@ export const STheStudio = () => {
     <section className="bg-[#FDF7F4] py-16">
       <div className="container space-y-12">
         <div className="flex flex-col gap-8 md:flex-row md:items-center md:justify-between">
-          <div className="flex flex-col items-start gap-6 md:w-5/12">
+          <div className="flex flex-col items-start md:w-5/12">
             <h2 className="h2 ">No coding experience? No problem.</h2>
 
-            <p className="">
-              You don’t have to be a developer to use Twilio. You can visually
-              create, edit, and manage communication workflows too.
+            <p className="mt-4">
+              You don&apos;t have to be a developer to use Twilio. You can
+              visually create, edit, and manage communication workflows too.
             </p>
 
-            <div className="flex gap-4">
+            <div className="mt-8 flex gap-2">
               <Link
                 href="/"
                 aria-label="The Studio"
                 className={cn(
                   buttonVariants({
-                    variant: "default",
+                    variant: "primary",
                     size: "default",
                     className: "",
                   }),
@@ -53,7 +53,7 @@ export const STheStudio = () => {
 "
                 className={cn(
                   buttonVariants({
-                    variant: "outline",
+                    variant: "primaryOutline",
                     size: "default",
                     className: "",
                   }),
@@ -64,7 +64,7 @@ export const STheStudio = () => {
             </div>
           </div>
 
-          <div className="md:w-7/12">
+          <div className="md:w-6/12">
             <Image
               src="/twilio-studio.webp"
               alt="Twilio Studio"
@@ -77,7 +77,7 @@ export const STheStudio = () => {
 
         <ul className="grid w-full gap-8 md:grid-cols-3 md:gap-12">
           {DummyContent?.map((item, index) => (
-            <li key={index} className="space-y-3 ">
+            <li key={index} className="space-y-2">
               <h3 className="h3">{item.title}</h3>
               <p className="md:text-lg">{item.desc}</p>
             </li>

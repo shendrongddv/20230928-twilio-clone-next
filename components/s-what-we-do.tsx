@@ -23,7 +23,7 @@ export const ContentBrandClouds = [
 
 export const SWhatWeDo = () => {
   return (
-    <section className="py-16">
+    <section className="pb-16">
       <div className="container flex flex-col items-center gap-12">
         {/* Title */}
         <div className="flex flex-col gap-4 text-center md:w-3/4">
@@ -39,12 +39,12 @@ export const SWhatWeDo = () => {
         {/* Content */}
         <div className="flex w-full flex-col gap-8 md:flex-row md:items-center md:justify-between">
           {/* Accordion */}
-          <div className="md:w-6/12">
+          <div className="md:w-5/12">
             <WhatWeCanDoAccordion />
           </div>
 
           {/* Image */}
-          <div className="border md:w-5/12">
+          <div className="hidden md:flex md:w-6/12">
             <Image
               src="/customer-aspect.webp"
               alt="Customer Aspect"

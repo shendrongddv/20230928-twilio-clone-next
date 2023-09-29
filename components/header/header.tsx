@@ -1,5 +1,6 @@
 import { SiteLogo } from "../site-logo";
 import { Buttons } from "./buttons";
+import { Nav } from "./nav";
 
 const Header = () => {
   return (
@@ -9,6 +10,9 @@ const Header = () => {
         <SiteLogo />
 
         {/* NavMenu */}
+        <div className="hidden md:flex">
+          <Nav />
+        </div>
 
         {/* Buttons */}
         <Buttons />

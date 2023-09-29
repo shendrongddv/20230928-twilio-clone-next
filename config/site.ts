@@ -17,6 +17,115 @@ export const siteConfig = {
   },
 };
 
+// NavbarNav
+export const NavbarNav = [
+  {
+    id: "f9eac924-7256-5c67-93ba-556438632071",
+    label: "Products",
+    links: [
+      {
+        id: "9ffeaf4c-6de9-50cb-944e-6525040b06e0",
+        label: "Sub Link 1",
+        url: "/",
+      },
+      {
+        id: "e865ca6c-4511-5fd0-9977-81b5fa8b7b29",
+        label: "Sub Link 2",
+        url: "/",
+      },
+      {
+        id: "b5eab4eb-39ff-5ffb-ba55-0c3db83d1858",
+        label: "Sub Link 3",
+        url: "/",
+      },
+    ],
+  },
+  {
+    id: "7ee18f91-035b-5868-9fe2-96de9e07df03",
+    label: "Solutions",
+    links: [
+      {
+        id: "7f348dcf-12de-5183-9d56-91698306affc",
+        label: "Sub Link 1",
+        url: "/",
+      },
+      {
+        id: "65f682d1-269d-5a61-bb26-a52175579d33",
+        label: "Sub Link 2",
+        url: "/",
+      },
+      {
+        id: "db91b595-1860-5614-993c-a300b32fa70a",
+        label: "Sub Link 3",
+        url: "/",
+      },
+    ],
+  },
+  {
+    id: "1325d6e2-8509-504a-967b-ec310571ac6c",
+    label: "Developers",
+    links: [
+      {
+        id: "ee0d1476-69a8-54aa-94fb-a47033a29bcb",
+        label: "Sub Link 1",
+        url: "/",
+      },
+      {
+        id: "0b9cb038-0072-57e8-b93d-e7ab717666b3",
+        label: "Sub Link 2",
+        url: "/",
+      },
+      {
+        id: "6bb49ca5-4c33-5e0a-91a6-f9b629a56926",
+        label: "Sub Link 3",
+        url: "/",
+      },
+    ],
+  },
+  {
+    id: "8af23ad6-a167-59c4-b986-f9a20e55bb0e",
+    label: "Services & Support",
+    links: [
+      {
+        id: "6dad3df2-aff6-52e6-a718-4a97d52df714",
+        label: "Sub Link 1",
+        url: "/",
+      },
+      {
+        id: "0197bbd3-fc58-5d1c-a087-3d370a742d8c",
+        label: "Sub Link 2",
+        url: "/",
+      },
+      {
+        id: "67a43035-60d7-5206-8161-463a6efc439d",
+        label: "Sub Link 3",
+        url: "/",
+      },
+    ],
+  },
+  {
+    id: "37d0d961-d21f-570e-a866-278136bbd0c1",
+    label: "Pricing",
+    links: [
+      {
+        id: "c08c42a6-b69d-5835-b902-ab8afc66d167",
+        label: "Sub Link 1",
+        url: "/",
+      },
+      {
+        id: "0a492255-d477-59fc-b8af-5fac8f62d7ef",
+        label: "Sub Link 2",
+        url: "/",
+      },
+      {
+        id: "1337674c-ba97-55db-9b41-53a3b742a357",
+        label: "Sub Link 3",
+        url: "/",
+      },
+    ],
+  },
+];
+
 // FooterNav
 export const FooterNav = [
   {

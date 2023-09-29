@@ -9,7 +9,12 @@ import Image from "next/image";
 
 export const WhatWeCanDoAccordion = () => {
   return (
-    <Accordion type="single" collapsible className="w-full space-y-4">
+    <Accordion
+      type="single"
+      collapsible
+      className="w-full space-y-4"
+      defaultValue={DummyAccordionAlpha[0].id}
+    >
       {DummyAccordionAlpha?.map((item) => (
         <AccordionItem
           key={item.id}
