@@ -8,7 +8,7 @@ import Image from "next/image";
 export const UseCaseTab = () => {
   return (
     <Tabs defaultValue={DummyCaseStudy[0].id} className="w-full">
-      <ScrollArea className="rounded-full">
+      <ScrollArea className="overflow-hidden rounded-full">
         <TabsList className="h-max p-1">
           {DummyCaseStudy?.map((item) => (
             <TabsTrigger
