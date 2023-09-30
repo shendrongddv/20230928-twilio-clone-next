@@ -3,6 +3,7 @@ import { SiteLogo } from "../site-logo";
 import { SheetClose } from "../ui/sheet";
 import { cn } from "@/lib/utils";
 import { buttonVariants } from "../ui/button";
+import { NavMobile } from "./nav-mobile";
 
 export const NavbarMobile = () => {
   return (
@@ -15,6 +16,9 @@ export const NavbarMobile = () => {
       </div>
 
       {/* Main */}
+      <div>
+        <NavMobile />
+      </div>
 
       {/* Footer */}
       <div className="sticky bottom-0 left-0 mt-auto grid w-full grid-cols-2 gap-2 border-t p-4">
@@ -23,7 +27,7 @@ export const NavbarMobile = () => {
           aria-label="Start for free"
           className={cn(
             buttonVariants({
-              variant: "default",
+              variant: "primary",
               size: "default",
               className: "col-span-2",
             }),
@@ -37,7 +41,7 @@ export const NavbarMobile = () => {
           aria-label="Login"
           className={cn(
             buttonVariants({
-              variant: "outline",
+              variant: "primaryOutline",
               size: "default",
               className: "",
             }),
@@ -51,7 +55,7 @@ export const NavbarMobile = () => {
           aria-label="Contact sales"
           className={cn(
             buttonVariants({
-              variant: "outline",
+              variant: "primaryOutline",
               size: "default",
               className: "",
             }),

@@ -12,7 +12,7 @@ export const Toggle = () => {
           <Menu className="h-4 w-4" />
         </Button>
       </SheetTrigger>
-      <SheetContent side="left" className="flex h-full w-full flex-col p-0">
+      <SheetContent side="left" className="flex h-full w-4/5 flex-col p-0">
         {/* SheetContent */}
         <NavbarMobile />
         {/* ./ SheetContent */}
