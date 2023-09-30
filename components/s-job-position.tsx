@@ -27,7 +27,7 @@ export const SJobPosition = () => {
   return (
     <section className="bg-gradient-to-b from-[#121C2D] from-50% to-white to-5% py-16">
       <div className="container">
-        <ul className="mx-auto grid grid-cols-2 gap-2 md:w-4/5 md:grid-cols-4 md:gap-4">
+        <ul className="mx-auto grid grid-cols-2 gap-2 md:grid-cols-4 md:gap-4">
           {ContentJobPosition?.map((item, index) => (
             <li key={index}>
               <Link

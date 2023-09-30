@@ -41,7 +41,7 @@ export const UseCaseTab = () => {
           value={item.id}
           className="mx-auto md:w-10/12"
         >
-          <div className="flex flex-col items-stretch gap-4 overflow-hidden rounded-xl shadow-lg md:flex-row md:justify-between">
+          <div className="flex flex-col items-stretch gap-4 overflow-hidden rounded-xl bg-background shadow-lg md:flex-row md:justify-between">
             {/* Col */}
             <div className="hidden flex-col items-center justify-center bg-slate-100 p-4 text-center md:flex md:w-2/5 md:p-8">
               <p className="text-base italic md:text-lg">

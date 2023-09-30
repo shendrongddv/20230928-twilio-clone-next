@@ -2,7 +2,7 @@ import { UseCaseTab } from "./tab/use-case-tab";
 
 export const SUserStory = () => {
   return (
-    <section className="border-b py-16">
+    <section className="bg-[#FDF7F4] bg-[url(/bg-2.svg)] bg-contain bg-top bg-no-repeat py-16">
       <div className="container flex flex-col items-center gap-12">
         {/* Title */}
         <div className="mx-auto flex flex-col text-clip text-center md:w-3/4">
